@@ -1,0 +1,29 @@
+{
+  "projects": {
+    "dev": "dev-ion4fullpwa",
+    "prod": "ion4fullpwa",
+    "pro": "pro-ion4fullpwa"
+  },
+  "targets": {
+    "dev-ion4fullpwa": {
+      "hosting": {
+        "ionic-5": [
+          "dev-ion4fullpwa"
+        ],
+        "ionic-6": [
+          "dev-ionic-6-full-app"
+        ]
+      }
+    },
+    "pro-ion4fullpwa": {
+      "hosting": {
+        "12-2021-release": [
+          "pro-ion4fullpwa"
+        ],
+        "06-2022-release": [
+          "pro-ionic-6-full-app"
+        ]
+      }
+    }
+  }
+}
